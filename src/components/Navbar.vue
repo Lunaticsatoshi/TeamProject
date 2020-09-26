@@ -12,7 +12,18 @@
                 <v-icon right>chevron_right</v-icon>
             </v-btn>
         </v-toolbar>
-        <v-navigation-drawer app absolute bottom temporary v-model="drawer" class="primary"></v-navigation-drawer>
+        <v-navigation-drawer app absolute bottom temporary v-model="drawer" class="primary">
+            <v-list>
+                <v-list-tile>
+                    <v-list-tile-action>
+                        <v-icon left class="white--text">dashboard</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                        <v-list-tile-title class="white--text">Home</v-list-tile-title>
+                    </v-list-tile-content>
+                </v-list-tile>
+            </v-list>
+        </v-navigation-drawer>
     </nav>
 </template>
 
