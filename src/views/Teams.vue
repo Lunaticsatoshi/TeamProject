@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="teams">
         <h1>This is Teams page</h1>
     </div>
 </template>

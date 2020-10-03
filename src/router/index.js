@@ -20,12 +20,12 @@ const routes = [
   },
   {
     path: '/projects',
-    name: 'Projects',
+    name: 'projects',
     component: Projects
   },
   {
     path: '/teams',
-    name: 'Teams',
+    name: 'teams',
     component: Teams
   },
 ]

@@ -15,10 +15,10 @@
                     <v-icon right>chevron_right</v-icon>
             </v-btn>
         </v-toolbar>
-        <v-navigation-drawer app absolute temporary v-model="drawer" class="primary">
+        <v-navigation-drawer  absolute temporary v-model="drawer" class="primary">
             <v-list>
                 <v-list-item-group v-model="items">
-                    <v-list-item :key="i" v-for="(item, i) in items" router :to="item.route">
+                    <v-list-item :key="i" v-for="(item, i) in items" link :to="item.route">
                         <v-list-item-icon>
                             <v-icon left class="white--text" v-text="item.icon"></v-icon>
                         </v-list-item-icon>
